@@ -16,6 +16,7 @@
     };
 
     $.fn.jsonTableUpdate = function( options ){
+        // Edit table layout?
         var opt = $.extend({
             source: undefined,
             rowClass: undefined,
